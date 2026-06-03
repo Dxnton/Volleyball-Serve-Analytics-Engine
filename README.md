@@ -65,7 +65,7 @@ Place the dataset CSV in the same folder as vball_serve.py before running
 When you run it the program will load all 2,639 matches, print the top 10 teams by ace rate, show the best and worst teams with their rolling averages and trends, display league wide statistics, open an interactive Plotly bar chart in your browser, then drop into a team search loop where you can look up any team by name.
 Team search example:
 Enter a team name to search (or 'quit' to exit): Asseco
-
+```
   Asseco Resovia
   ============================================================
   Matches:      228
@@ -79,7 +79,7 @@ Enter a team name to search (or 'quit' to exit): Asseco
   ============================================================
 
   View match-by-match trend chart for this team? (y/n):
-
+```
 ------------------------------------------------------------------------------------
 
 **What I Learned**
