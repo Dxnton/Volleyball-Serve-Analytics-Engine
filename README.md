@@ -28,8 +28,8 @@ Plotly Visualizations generates an interactive bar chart of the top 10 teams and
 
 ------------------------------------------------------------------------------------
 
-**Data Structures and Algorithms
-**
+**Data Structures and Algorithms**
+
 The core logic is built without relying on library implementations. The goal was to actually understand what is happening under the hood:
 Queue (FIFO) - Rolling window of last 5 match accuracies per team
 Stack (LIFO) - Performance history for trend detection (improving/declining/stable)
