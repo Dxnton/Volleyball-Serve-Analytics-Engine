@@ -50,7 +50,7 @@ Source: Kaggle — PlusLiga Volleyball Dataset
 
 ------------------------------------------------------------------------------------
 
-Installation
+**Installation**
 
 git clone https://github.com/Dxnton/volleyball-serve-analytics.git
 cd volleyball-serve-analytics
@@ -60,7 +60,7 @@ Place the dataset CSV in the same folder as vball_serve.py before running
 
 ------------------------------------------------------------------------------------
 
-Usage
+**Usage**
 
 When you run it the program will load all 2,639 matches, print the top 10 teams by ace rate, show the best and worst teams with their rolling averages and trends, display league wide statistics, open an interactive Plotly bar chart in your browser, then drop into a team search loop where you can look up any team by name.
 Team search example:
@@ -82,14 +82,14 @@ Enter a team name to search (or 'quit' to exit): Asseco
 
 ------------------------------------------------------------------------------------
 
-**What I Learned
-**
+**What I Learned**
+
 Building data structures from scratch makes you actually appreciate what libraries do for you. Rolling windows and stack based trend detection are pretty intuitive once you build them yourself. Making a CLI tool feel smooth takes more thought than the actual analysis. Connecting the data processing to visual output with Plotly was easier than I expected and way more satisfying than just printing tables.
 
 ------------------------------------------------------------------------------------
 
-**Future Improvements
-**
+**Future Improvements**
+
 Add season by season filtering so you can compare a team across specific years
 Expand beyond serve stats to include attack efficiency and blocking data
 Export team reports as PDF summaries
